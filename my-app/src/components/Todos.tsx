@@ -1,11 +1,10 @@
 import React from 'react';
 
-const Todos = () => {
+const Todos = (props: {items: string[]}) => {
 
     return (
         <ul>
-            <li>Learn React</li>
-            <li>Lear TypeScript</li>
+
 
         </ul>
 
