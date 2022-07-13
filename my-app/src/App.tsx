@@ -8,7 +8,7 @@ function App() {
   const todos = [new Todo("Learn react"), new Todo("Learn ts")];
   return (
     <div>
-      <Todos items={["Learn react", "Learn Ts"]} />
+      <Todos items={todos} />
     </div>
   );
 }
